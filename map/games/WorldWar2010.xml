@@ -745,11 +745,11 @@
     <!-- Repair rules -->
     <repairRule name="repairFactory">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="1"/>
     </repairRule>
     <repairRule name="repairFactoryIndustrialTechnology">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="2"/>
+      <result resourceOrUnit="factory" quantity="2"/>
     </repairRule>
     <repairFrontier name="repair">
       <repairRules name="repairFactory"/>
