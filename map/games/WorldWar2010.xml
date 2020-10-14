@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="World War 2010" version="1.3.0"/>
+  <info name="World War 2010" version="1.3.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory Definitions -->
@@ -745,11 +745,11 @@
     <!-- Repair rules -->
     <repairRule name="repairFactory">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="1"/>
     </repairRule>
     <repairRule name="repairFactoryIndustrialTechnology">
       <cost resource="PUs" quantity="1"/>
-      <result resourceOrUnit="factory_hit" quantity="2"/>
+      <result resourceOrUnit="factory" quantity="2"/>
     </repairRule>
     <repairFrontier name="repair">
       <repairRules name="repairFactory"/>
